@@ -66,18 +66,28 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="text-center text-white px-4 max-w-4xl mx-auto bg-black/20 backdrop-blur-sm rounded-2xl py-12">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+        <div className="text-center text-white px-4 max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
             {slides[currentSlide].title}
           </h1>
+
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-delay">
             {slides[currentSlide].subtitle}
           </p>
-          <button className="bg-gradient-to-r from-amber-600 to-beige-600 hover:from-amber-700 hover:to-beige-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-delay-2 shadow-lg">
-            {slides[currentSlide].cta}
-          </button>
+
+        {/* Line and Button with Equal Spacing */}
+          <div className="flex flex-col items-center space-y-8">
+        {/* Decorative Line */}
+            <div className="h-1 w-[70%] bg-orange-500 rounded-full"></div>
+
+        {/* CTA Button */}
+            <button className="bg-gradient-to-r from-orange-400 via-white-600 to-orange-500 hover:from-amber-700 hover:to-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-delay-2 shadow-lg">
+              {slides[currentSlide].cta}
+            </button>
+          </div>
         </div>
       </div>
+
 
       {/* Navigation */}
       <button
