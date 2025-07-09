@@ -138,6 +138,12 @@ const Services: React.FC = () => {
             </button>
           </div>
         </div>
+
+        {/* Decorative Line */}
+        <div className="mt-12 flex justify-center">
+          <div className="h-1 w-[100%] bg-amber-600 rounded-full"></div>
+        </div>
+
       </div>
     </section>
   );

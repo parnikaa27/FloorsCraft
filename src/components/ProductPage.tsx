@@ -28,15 +28,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Multiple wood species: Oak, Maple, Cherry, Walnut',
           'Refinishable surface for decades of beauty',
           'Natural grain patterns and rich textures',
-          'Professional installation with precision',
-          '25+ year structural warranty coverage'
+          'Professional installation with precision'
         ],
         specifications: {
           'Thickness': '3/4" solid, 1/2" to 5/8" engineered',
           'Width': '3" to 7" planks available',
           'Finish': 'Pre-finished and unfinished options',
-          'Installation': 'Nail-down, glue-down, floating',
-          'Warranty': '25 years structural, 10 years finish'
+          'Installation': 'Nail-down, glue-down, floating'
         },
         gallery: [
           'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -63,8 +61,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '4mm to 8mm luxury vinyl planks',
           'Width': '6" to 9" planks, 12" to 24" tiles',
           'Wear Layer': '12mil to 28mil commercial grade',
-          'Installation': 'Click-lock floating system',
-          'Warranty': '20 years residential, 10 years commercial'
+          'Installation': 'Click-lock floating system'
         },
         gallery: [
           'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -91,8 +88,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '6mm to 8mm total thickness',
           'Width': '6" to 9" planks',
           'Wear Layer': 'Real wood veneer with protective coating',
-          'Core': 'Stone Plastic Composite',
-          'Warranty': '25 years residential'
+          'Core': 'Stone Plastic Composite'
         },
         gallery: [
           'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -119,8 +115,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '4mm to 6mm',
           'Width': '6" to 9" planks',
           'Core': 'Stone Plastic Composite',
-          'Installation': 'Click-lock floating',
-          'Warranty': '20 years residential, 15 years commercial'
+          'Installation': 'Click-lock floating'
         },
         gallery: [
           'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -147,8 +142,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '5mm to 7mm',
           'Width': '6" to 9" planks',
           'Core': 'Flexible Stone Plastic Composite',
-          'Installation': 'Click-lock or glue-down',
-          'Warranty': '20 years residential'
+          'Installation': 'Click-lock or glue-down'
         },
         gallery: [
           'https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -175,8 +169,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '7mm to 12mm',
           'Width': '5" to 8" planks',
           'AC Rating': 'AC3 to AC5 commercial grade',
-          'Installation': 'Click-lock floating system',
-          'Warranty': '15 to 25 years residential'
+          'Installation': 'Click-lock floating system'
         },
         gallery: [
           'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -203,8 +196,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Dimensions': '1" x 5.5" standard boards',
           'Length': '12ft, 16ft, 20ft options',
           'Material': '60% wood fiber, 40% recycled plastic',
-          'Installation': 'Hidden fastener system',
-          'Warranty': '25 years residential'
+          'Installation': 'Hidden fastener system'
         },
         gallery: [
           'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -231,8 +223,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Thickness': '1" x 5.5" hollow profile',
           'Length': '12ft, 16ft options',
           'Weight': '40% lighter than solid boards',
-          'Installation': 'Standard deck fasteners',
-          'Warranty': '20 years residential'
+          'Installation': 'Standard deck fasteners'
         },
         gallery: [
           'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -259,8 +250,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Height': '6ft and 8ft options',
           'Panel Width': '6ft standard',
           'Thickness': '1" composite boards',
-          'Installation': 'Post and panel system',
-          'Warranty': '20 years limited'
+          'Installation': 'Post and panel system'
         },
         gallery: [
           'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -287,8 +277,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Dimensions': '8ft x 4ft panels',
           'Thickness': '3/4" composite material',
           'Groove Spacing': '1" on center',
-          'Installation': 'Wall mounting system',
-          'Warranty': '15 years limited'
+          'Installation': 'Wall mounting system'
         },
         gallery: [
           'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',

@@ -71,7 +71,7 @@ const ProjectGallery: React.FC = () => {
     : projects.filter(project => project.category === activeFilter);
 
   return (
-    <section id="gallery" className="py-20 bg-gradient-to-br from-beige-100 via-beige-200 to-beige-100">
+    <section id="gallery" className="py-20 bg-gradient-to-br from-beige-200 via-beige-400 to-beige-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">

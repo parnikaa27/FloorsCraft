@@ -71,7 +71,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
   const secondRowProducts = products.slice(3, 7);
 
   return (
-    <section id="flooring" className="py-20 bg-gradient-to-br from-beige-200 via-beige-100 to-beige-300">
+    <section id="flooring" className="py-20 bg-gradient-to-br from-beige-400 via-beige-300 to-beige-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
