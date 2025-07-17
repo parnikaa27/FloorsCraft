@@ -71,17 +71,7 @@ const Contact: React.FC = () => {
                     <p className="text-gray-600">Region: Henveiru</p>
                     <p className="text-gray-600">Road: Hithah Finivaa Magu</p>
                     <p className="text-gray-600">Postal code: 20084</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-beige-300 text-beige-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="h-6 w-6" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900">Business Hours</h4>
-                    <p className="text-gray-600">Mon - Sat: 9:00 AM – 6:00 PM</p>
-                    <p className="text-gray-600">Sun: Closed</p>
+                    <br></br>
                   </div>
                 </div>
               </div>
@@ -198,6 +188,39 @@ const Contact: React.FC = () => {
                 Send Message
               </button>
             </form>
+          </div>
+        </div>
+        {/* Interactive Map Section */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Find Us</h3>
+          <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-beige-300">
+            <div className="h-96 w-full">
+              <iframe
+                  title="Our Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2205522889108!2d73.5085354371111!3d4.176999788657691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f7f9fdd0a44d3%3A0xeec0f140cf88d903!2sO%20Shop!5e0!3m2!1sen!2sin!4v1750168802837!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+            <div className="p-6 bg-gradient-to-r from-beige-100 to-beige-200">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">OShop</h4>
+                  <p className="text-gray-700 text-sm">
+                    R.G. Tower – Ground and First Floor, Henveiru, Hithah Finivaa Magu, 20084
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm text-gray-600">Business Hours</p>
+                  <p className="font-medium text-gray-900">Mon-Sat: 9AM-6PM</p>
+                  <p className="text-sm text-gray-600">Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
