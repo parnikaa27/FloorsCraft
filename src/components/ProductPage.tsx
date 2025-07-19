@@ -37,12 +37,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down, glue-down, floating'
         },
         gallery: [
-          'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'vinyl-flooring': {
@@ -64,12 +64,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock floating system'
         },
         gallery: [
-          'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/vinyl6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/vinyl1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/vinyl2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/vinyl3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/vinyl4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/vinyl5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wood-spc-flooring': {
@@ -91,12 +91,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Core': 'Stone Plastic Composite'
         },
         gallery: [
-          'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/woodspcflooring3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspcflooring4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspc.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspcflooring6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspc3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspcflooring5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'standard-spc-flooring': {
@@ -118,12 +118,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock floating'
         },
         gallery: [
-          'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/standardspc1.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/standardspc2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspcflooring2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/standardspc3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/standardspc6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/woodspc2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'flexible-spc-flooring': {
@@ -145,12 +145,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock or glue-down'
         },
         gallery: [
-          'https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/flexiblespc1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/flexiblespc2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/flexible3.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/flexible4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/flexible5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/flexible6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'laminate-flooring': {
@@ -172,12 +172,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock floating system'
         },
         gallery: [
-          'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/laminate1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/laminate2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/laminate2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/laminate3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/laminate.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/laminate4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wpc-decking-solid': {
@@ -199,12 +199,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Hidden fastener system'
         },
         gallery: [
-          'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/wpcdecking8.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcsolid.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking7.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcsolid1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wpc-decking-hollow': {
@@ -226,12 +226,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Standard deck fasteners'
         },
         gallery: [
-          'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/wpcdecking1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',        
+          '/wpchollow.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking9.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdecking6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wpc-privacy-fence': {
@@ -253,12 +253,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Post and panel system'
         },
         gallery: [
-          'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/fence4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/fence2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/fence3.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/fence1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/fence5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/fence6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wpc-fluted-panels': {
@@ -280,12 +280,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Wall mounting system'
         },
         gallery: [
-          'https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/panel4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/panel2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/panel3.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/panel1.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/panel5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/panel6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
       'wpc-doors': {
@@ -308,12 +308,12 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Hardware': 'Compatible with standard door hardware'
         },
         gallery: [
-          'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+          '/wpcdoor1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdoor2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdoor3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdoor4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdoor5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/wpcdoor6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       }
     };
