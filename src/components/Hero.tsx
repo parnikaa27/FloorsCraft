@@ -12,19 +12,19 @@ const Hero: React.FC = () => {
       cta: 'Explore Hardwood'
     },
     {
-      image: '/image001.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+      image: '/woodspcflooring3.webp?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'Modern SPC Flooring',
       subtitle: 'Durable, waterproof, and beautiful',
       cta: 'Discover SPC'
     },
     {
-      image: '/image002.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+      image: '/vinyl2.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'Luxury Vinyl Solutions',
       subtitle: 'Style meets performance in every plank',
       cta: 'View Vinyl'
     },
     {
-      image: 'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+      image: '/wpcdecking8.avif?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'WPC Decking & More',
       subtitle: 'Indoor and outdoor solutions for every project',
       cta: 'Explore WPC'
@@ -87,8 +87,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-
-
+py-20 bg-gradient-to-br from-beige-100 via-beige-200 to-beige-100
       {/* Navigation */}
       <button
         onClick={prevSlide}
