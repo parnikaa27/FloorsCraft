@@ -28,21 +28,13 @@ const Footer: React.FC = () => {
       'Careers',
       'News & Updates',
       'Sustainability'
-    ],
-    support: [
-      'Contact Us',
-      'FAQ',
-      'Care Instructions',
-      'Warranty Information',
-      'Technical Support',
-      'Return Policy'
     ]
   };
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-beige-900 to-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="text-2xl font-bold mb-4">
@@ -108,20 +100,6 @@ const Footer: React.FC = () => {
             <h3 className="font-semibold mb-4 text-amber-400">Services</h3>
             <ul className="space-y-2">
               {footerLinks.services.map((link, index) => (
-                <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h3 className="font-semibold mb-4 text-amber-400">Support</h3>
-            <ul className="space-y-2">
-              {footerLinks.support.map((link, index) => (
                 <li key={index}>
                   <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
                     {link}

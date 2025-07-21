@@ -214,11 +214,6 @@ const Contact: React.FC = () => {
                     R.G. Tower – Ground and First Floor, Henveiru, Hithah Finivaa Magu, 20084
                   </p>
                 </div>
-                <div className="text-right">
-                  <p className="text-sm text-gray-600">Business Hours</p>
-                  <p className="font-medium text-gray-900">Mon-Sat: 9AM-6PM</p>
-                  <p className="text-sm text-gray-600">Sunday: Closed</p>
-                </div>
               </div>
             </div>
           </div>
