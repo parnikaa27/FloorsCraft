@@ -88,8 +88,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
         },
       ],
     },
-    { name: 'PROJECT GALLERY', onClick: () => scrollToSection('gallery') },
     { name: 'SERVICES', onClick: () => scrollToSection('services') },
+    { name: 'PROJECT GALLERY', onClick: () => scrollToSection('gallery') },
     { name: 'CONTACT US', onClick: () => scrollToSection('contact') },
   ];
 

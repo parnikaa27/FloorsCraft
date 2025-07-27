@@ -38,8 +38,8 @@ function App() {
       <Hero />
       <ProductShowcase onLearnMore={handleNavigation} />
       <About />
-      <ProjectGallery />
       <Services />
+      <ProjectGallery />
       <Contact />
       <Footer />
     </div>

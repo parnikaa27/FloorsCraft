@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -75,6 +76,22 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
+              <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-beige-300 text-beige-800 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <FaWhatsapp className="h-6 w-6 text-beige" />
+                  </div>
+                  <div>
+                  <h4 className="font-semibold text-slate-800 mb-1">WhatsApp</h4>
+                    <a
+                      href="https://wa.me/9609310373"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-green-600 hover:text-green-700 font-medium underline"
+                    >
+                      Chat with us on WhatsApp
+                    </a>
+                    </div>
+                </div>
             </div>
 
             {/* Support Section */}

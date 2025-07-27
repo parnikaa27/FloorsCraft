@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -34,35 +35,16 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-beige-900 to-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-24 gap-y-12">
           {/* Company Info */}
-          <div className="lg:col-span-2">
+          <div>
             <div className="text-2xl font-bold mb-4">
               Floors<span className="text-amber-400">Craft</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Transforming spaces with premium flooring solutions for over 25 years. 
-              Quality, craftsmanship, and customer satisfaction are at the heart of everything we do.
+              Transforming spaces with premium flooring <br /> solutions for over 25 years. 
+              Quality, craftsmanship, <br /> and customer satisfaction are at the heart of <br /> everything we do.
             </p>
-            
-            {/* Contact Info */}
-            <div className="space-y-3">
-              <div className="flex items-center">
-                <Phone className="h-5 w-5 text-amber-400 mr-3" />
-                <span className="text-gray-300">+960 9310373</span>
-              </div>
-              <div className="flex items-center">
-                <Mail className="h-5 w-5 text-amber-400 mr-3" />
-                <span className="text-gray-300">sales.cenpro@opromaldives.com</span>
-              </div>
-              <div className="flex items-center">
-                <MapPin className="h-5 w-5 text-amber-400 mr-3" />
-                <span className="text-gray-300">Building: R.G. Tower – Ground and First Floor<br />
-                  Region: Henveiru <br />
-                  Road: Hithah Finivaa Magu<br />
-                  Postal code: 20084</span>
-              </div>
-            </div>
 
             {/* Social Media */}
             <div className="flex space-x-4 mt-6">
@@ -81,25 +63,47 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Products */}
-          <div>
-            <h3 className="font-semibold mb-4 text-amber-400">Products</h3>
-            <ul className="space-y-2">
-              {footerLinks.products.map((link, index) => (
-                <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            {/* Contact Info */}
+
+         <div>
+          <h3 className="text-xl font-semibold mb-4 text-amber-400">Contact</h3>
+            <div className="space-y-4">
+              <div className="flex items-center">
+                <Phone className="h-5 w-5 text-amber-400 mr-3" />
+                <span className="text-gray-300">+960 9310373</span>
+              </div>
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 text-amber-400 mr-3" />
+                  <span className="text-gray-300">sales.cenpro@opromaldives.com</span>
+              </div>
+              <div className="flex items-center">
+                <a
+                  href="https://wa.me/9609310373"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-400 hover:text-amber-500 flex items-center"
+                >
+                <FaWhatsapp className="h-6 w-6 mr-2" />
+                <span className="text-gray-300">Chat on WhatsApp</span>
+                </a>
+              </div>
+              <div className="flex items-start">
+                <MapPin className="h-5 w-5 text-amber-400 mr-3 mt-1" />
+                  <span className="text-gray-300">
+                    Building: R.G. Tower – Ground and First Floor <br />
+                    Region: Henveiru <br />
+                    Road: Hithah Finivaa Magu <br />
+                    Postal code: 20084
+                  </span>
+              </div>
+            </div>
           </div>
 
-          {/* Services */}
+          {/* Products */}
           <div>
-            <h3 className="font-semibold mb-4 text-amber-400">Services</h3>
+            <h3 className="text-xlfont-semibold mb-4 text-amber-400">Products</h3>
             <ul className="space-y-2">
-              {footerLinks.services.map((link, index) => (
+              {footerLinks.products.map((link, index) => (
                 <li key={index}>
                   <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
                     {link}

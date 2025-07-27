@@ -60,7 +60,7 @@ const About: React.FC = () => {
           {/* Image */}
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+              src="/jason-hafso-YypTXBPF5S4-unsplash.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
               alt="FloorsCraft Team"
               className="w-full rounded-xl shadow-2xl"
             />
