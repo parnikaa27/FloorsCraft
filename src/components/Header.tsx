@@ -60,8 +60,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
     {
       name: 'FLOORING',
       dropdown: [
-        { name: 'HARDWOOD FLOORING', onClick: () => onNavigate?.('hardwood-flooring') },
-        { name: 'VINYL FLOORING', onClick: () => onNavigate?.('vinyl-flooring') },
+       
+        
         { name: 'WOOD SPC FLOORING', onClick: () => onNavigate?.('wood-spc-flooring') },
         {
           name: 'SPC FLOORING',
@@ -71,6 +71,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           ],
         },
         { name: 'LAMINATE FLOORING', onClick: () => onNavigate?.('laminate-flooring') },
+        { name: 'VINYL FLOORING', onClick: () => onNavigate?.('vinyl-flooring') },
+        { name: 'HARDWOOD FLOORING', onClick: () => onNavigate?.('hardwood-flooring') },
         {
           name: 'WPC DECKING',
           submenu: [

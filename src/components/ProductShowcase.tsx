@@ -21,20 +21,6 @@ interface ProductShowcaseProps {
 const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
   const products: Product[] = [
     {
-      id: 'hardwood-flooring',
-      name: 'Hardwood Flooring',
-      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      description: 'Premium solid and engineered hardwood floors that bring natural beauty and lasting value to your space.',
-      features: ['100% Natural Wood', 'Refinishable Surface', '25+ Year Warranty']
-    },
-    {
-      id: 'vinyl-flooring',
-      name: 'Vinyl Flooring',
-      image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      description: 'Luxury vinyl planks and tiles offering durability, comfort, and stunning visual appeal.',
-      features: ['100% Waterproof', 'Easy Installation', 'Scratch Resistant']
-    },
-    {
       id: 'wood-spc-flooring',
       name: 'Wood SPC Flooring',
       image: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -68,6 +54,32 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
       features: ['Fade Resistant', 'Easy Maintenance', 'Pet Friendly']
     },
     {
+      id: 'vinyl-flooring',
+      name: 'Vinyl Flooring',
+      image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      description: 'Luxury vinyl planks and tiles offering durability, comfort, and stunning visual appeal.',
+      features: ['100% Waterproof', 'Easy Installation', 'Scratch Resistant']
+    },
+    {
+      id: 'hardwood-flooring',
+      name: 'Hardwood Flooring',
+      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      description: 'Premium solid and engineered hardwood floors that bring natural beauty and lasting value to your space.',
+      features: ['100% Natural Wood', 'Refinishable Surface', '25+ Year Warranty'],
+      subcategories: [
+        {
+          id: 'solid-hardwood-flooring',
+          name: 'Solid Hardwood',
+          description: 'Traditional solid wood planks for timeless elegance'
+        },
+        {
+          id: 'engineered-hardwood-flooring',
+          name: 'Engineered Hardwood',
+          description: 'Layered construction for enhanced stability'
+        }
+      ]
+    },
+    {
       id: 'wpc-decking',
       name: 'WPC Decking',
       image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
@@ -88,7 +100,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
     },
     {
       id: 'wpc-products',
-      name: 'Other WPC Products',
+      name: 'Other WPC Decking',
       image: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       description: 'Complete range of WPC products including doors, panels, and privacy fencing solutions.',
       features: ['Moisture Resistant', 'Eco-Friendly', 'Various Applications'],
@@ -202,7 +214,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onLearnMore }) => {
         {/* Subcategory Indicator */}
         {hasSubcategories && (
           <div className="absolute top-3 right-3">
-            <div className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-2 py-1 rounded-full text-xs font-medium shadow-lg">
+            <div className="bg-gradient-to-r from-beige-500 to-beige-600 text-black px-2 py-1 rounded-full text-xs font-medium shadow-lg">
               {product.subcategories!.length} Types
             </div>
           </div>
@@ -282,7 +294,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onLearnMore }) => {
         <div className="relative" ref={dropdownRef}>
           <button 
             onClick={handleLearnMoreClick}
-            className="w-full bg-amber-600 hover:bg-amber-700 text-white py-3 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
+            className="w-full bg-beige-500 hover:bg-beige-600 text-black py-3 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
           >
             Learn More
             {hasSubcategories ? (

@@ -99,6 +99,60 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           '/woodspcflooring5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
         ]
       },
+      'solid-hardwood-flooring': {
+        title: 'Solid Hardwood Flooring',
+        subtitle: 'Traditional elegance in pure wood',
+        description: 'Our solid hardwood flooring represents the pinnacle of traditional flooring craftsmanship. Made from single pieces of natural wood, these floors offer unmatched authenticity and the ability to be refinished multiple times throughout their lifetime.',
+        features: [
+          '100% solid wood construction',
+          'Multiple refinishing opportunities',
+          'Authentic wood grain and character',
+          'Long-lasting durability and value',
+          'Natural temperature regulation',
+          'Timeless aesthetic appeal'
+        ],
+        specifications: {
+          'Thickness': '3/4" solid wood planks',
+          'Width': '2.25" to 5" planks available',
+          'Species': 'Oak, Maple, Cherry, Walnut, Hickory',
+          'Installation': 'Nail-down over subfloor'
+        },
+        gallery: [
+          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+        ]
+      },
+      'engineered-hardwood-flooring': {
+        title: 'Engineered Hardwood Flooring',
+        subtitle: 'Modern engineering meets natural beauty',
+        description: 'Our engineered hardwood flooring combines a real wood veneer top layer with a stable plywood or HDF core. This construction provides enhanced dimensional stability while maintaining the authentic look and feel of solid hardwood.',
+        features: [
+          'Real wood veneer surface layer',
+          'Enhanced dimensional stability',
+          'Suitable for below-grade installation',
+          'Multiple installation methods available',
+          'Resistant to humidity changes',
+          'Can be refinished (depending on veneer thickness)'
+        ],
+        specifications: {
+          'Thickness': '3/8" to 3/4" total thickness',
+          'Veneer Layer': '2mm to 6mm real wood',
+          'Core': 'Multi-layer plywood or HDF',
+          'Installation': 'Nail-down, glue-down, or floating'
+        },
+        gallery: [
+          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
+        ]
+      },
       'standard-spc-flooring': {
         title: 'Standard SPC Flooring',
         subtitle: 'Rigid core technology for ultimate stability',
