@@ -103,7 +103,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-beige-100/95 via-beige-200/95 to-beige-100/95 backdrop-blur-sm shadow-lg fixed w-full top-0 z-50 border-b border-beige-300">
+    <header className="bg-stone-950 backdrop-blur-sm shadow-lg fixed w-full top-0 z-50 border-b border-beige-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
@@ -121,7 +121,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
                 onMouseLeave={item.name === 'FLOORING' ? handleMouseLeave : undefined}
               >
                 <button
-                  className="flex items-center text-gray-800 hover:text-beige-800 font-medium transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
+                  className="flex items-center text-white hover:text-gray-400 font-medium transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
                   onClick={() => {
                     if (!item.dropdown) handleItemClick(item);
                   }}
