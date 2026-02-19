@@ -31,8 +31,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Professional installation with precision'
         ],
         specifications: {
-          'Thickness': '3/4" solid, 1/2" to 5/8" engineered',
-          'Width': '3" to 7" planks available',
+          'Thickness': 'Standard: 3/4" solid, 1/2" to 5/8" engineered - Customisable',
+          'Width': 'Standard: 3" to 7" planks available - Customisable',
           'Finish': 'Pre-finished and unfinished options',
           'Installation': 'Nail-down, glue-down, floating'
         },
@@ -58,8 +58,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Pet and family friendly with antimicrobial coating'
         ],
         specifications: {
-          'Thickness': '4mm to 8mm luxury vinyl planks',
-          'Width': '6" to 9" planks, 12" to 24" tiles',
+          'Thickness': 'Standard: 4mm to 8mm luxury vinyl planks - Customisable',
+          'Width': 'Standard: 6" to 9" planks, 12" to 24" tiles - Customisable',
           'Wear Layer': '12mil to 28mil commercial grade',
           'Installation': 'Click-lock floating system'
         },
@@ -85,8 +85,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Commercial grade durability'
         ],
         specifications: {
-          'Thickness': '6mm to 8mm total thickness',
-          'Width': '6" to 9" planks',
+          'Thickness': 'Standard: 6mm to 8mm total thickness - Customisable',
+          'Width': 'Standard: 6" to 9" planks - Customisable',
           'Wear Layer': 'Real wood veneer with protective coating',
           'Core': 'Stone Plastic Composite'
         },
@@ -112,8 +112,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Timeless aesthetic appeal'
         ],
         specifications: {
-          'Thickness': '3/4" solid wood planks',
-          'Width': '2.25" to 5" planks available',
+          'Thickness': 'Standard: 3/4" solid wood planks - Customisable',
+          'Width': 'Standard: 2.25" to 5" planks available - Customisable',
           'Species': 'Oak, Maple, Cherry, Walnut, Hickory',
           'Installation': 'Nail-down over subfloor'
         },
@@ -139,8 +139,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Can be refinished (depending on veneer thickness)'
         ],
         specifications: {
-          'Thickness': '3/8" to 3/4" total thickness',
-          'Veneer Layer': '2mm to 6mm real wood',
+          'Thickness': 'Standard: 3/8" to 3/4" total thickness - Customisable',
+          'Veneer Layer': 'Standard: 2mm to 6mm real wood - Customisable',
           'Core': 'Multi-layer plywood or HDF',
           'Installation': 'Nail-down, glue-down, or floating'
         },
@@ -166,8 +166,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'VOC-free and eco-friendly'
         ],
         specifications: {
-          'Thickness': '4mm to 6mm',
-          'Width': '6" to 9" planks',
+          'Thickness': 'Standard: 4mm to 6mm - Customisable',
+          'Width': 'Standard: 6" to 9" planks - Customisable',
           'Core': 'Stone Plastic Composite',
           'Installation': 'Click-lock floating'
         },
@@ -193,8 +193,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Suitable for radiant heating systems'
         ],
         specifications: {
-          'Thickness': '5mm to 7mm',
-          'Width': '6" to 9" planks',
+          'Thickness': 'Standard: 5mm to 7mm - Customisable',
+          'Width': 'Standard: 6" to 9" planks - Customisable',
           'Core': 'Flexible Stone Plastic Composite',
           'Installation': 'Click-lock or glue-down'
         },
@@ -220,8 +220,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Moisture resistant core options'
         ],
         specifications: {
-          'Thickness': '7mm to 12mm',
-          'Width': '5" to 8" planks',
+          'Thickness': 'Standard: 7mm to 12mm - Customisable',
+          'Width': 'Standard: 5" to 8" planks - Customisable',
           'AC Rating': 'AC3 to AC5 commercial grade',
           'Installation': 'Click-lock floating system'
         },
@@ -247,8 +247,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Insect and rot resistant'
         ],
         specifications: {
-          'Dimensions': '1" x 5.5" standard boards',
-          'Length': '12ft, 16ft, 20ft options',
+          'Dimensions': 'Standard: 1" x 5.5" standard boards - Customisable',
+          'Length': 'Standard: 12ft, 16ft, 20ft options - Customisable',
           'Material': '60% wood fiber, 40% recycled plastic',
           'Installation': 'Hidden fastener system'
         },
@@ -274,8 +274,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Environmentally friendly materials'
         ],
         specifications: {
-          'Thickness': '1" x 5.5" hollow profile',
-          'Length': '12ft, 16ft options',
+          'Thickness': 'Standard: 1" x 5.5" hollow profile - Customisable',
+          'Length': 'Standard: 12ft, 16ft options - Customisable',
           'Weight': '40% lighter than solid boards',
           'Installation': 'Standard deck fasteners'
         },
@@ -301,8 +301,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Multiple color options available'
         ],
         specifications: {
-          'Height': '6ft and 8ft options',
-          'Panel Width': '6ft standard',
+          'Height': 'Standard: 6ft and 8ft options - Customisable',
+          'Panel Width': 'Standard: 6ft - Customisable',
           'Thickness': '1" composite boards',
           'Installation': 'Post and panel system'
         },
@@ -328,8 +328,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Low maintenance requirements'
         ],
         specifications: {
-          'Dimensions': '8ft x 4ft panels',
-          'Thickness': '3/4" composite material',
+          'Dimensions': 'Standard: 8ft x 4ft panels - Customisable',
+          'Thickness': 'Standard: 3/4" composite material - Customisable',
           'Groove Spacing': '1" on center',
           'Installation': 'Wall mounting system'
         },
@@ -356,7 +356,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
         ],
         specifications: {
           'Material': 'Wood Plastic Composite core',
-          'Thickness': '35mm standard, 40mm available',
+          'Thickness': 'Standard: 35mm standard, 40mm available - Customisable',
           'Sizes': 'Standard and custom sizes available',
           'Finish': 'Pre-finished and paintable options',
           'Hardware': 'Compatible with standard door hardware'
@@ -406,7 +406,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
 
       {/* Content Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
           {/* Description */}
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Product Overview</h2>
@@ -424,18 +424,18 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           </div>
 
           {/* Specifications */}
-          <div className="bg-white p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold text-gray-900 mb-6">Specifications</h3>
-            <div className="space-y-4">
+          <div className="bg-white p-5 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-4">Specifications</h3>
+            <div className="space-y-6">
               {Object.entries(product.specifications).map(([key, value]) => (
-                <div key={key} className="flex justify-between items-start border-b border-gray-100 pb-3">
+                <div key={key} className="flex justify-between items-center border-b border-gray-100 pb-2">
                   <span className="font-medium text-gray-900">{key}:</span>
                   <span className="text-gray-600 text-right ml-4">{String(value)}</span>
                 </div>
               ))}
             </div>
 
-            {/* Trust Indicators */}
+            {/* Trust Indicators
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="text-center p-4 bg-beige-200 rounded-lg border border-beige-300">
                 <Shield className="h-8 w-8 text-beige-700 mx-auto mb-2" />
@@ -457,7 +457,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
                 <div className="text-sm font-medium text-gray-900">Rating</div>
                 <div className="text-xs text-gray-600">5 Stars</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

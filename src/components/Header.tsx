@@ -58,7 +58,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
     },
     { name: 'ABOUT US', onClick: () => scrollToSection('about') },
     {
-      name: 'FLOORING',
+      name: 'PRODUCTS',
       dropdown: [
        
         
@@ -72,7 +72,14 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
         },
         { name: 'LAMINATE FLOORING', onClick: () => onNavigate?.('laminate-flooring') },
         { name: 'VINYL FLOORING', onClick: () => onNavigate?.('vinyl-flooring') },
-        { name: 'HARDWOOD FLOORING', onClick: () => onNavigate?.('hardwood-flooring') },
+        //{ name: 'HARDWOOD FLOORING', onClick: () => onNavigate?.('hardwood-flooring') },
+        {
+          name: 'HARDWOOD FLOORING',
+          submenu: [
+            { name: 'SOLID', onClick: () => onNavigate?.('hardwood-flooring-solid') },
+            { name: 'ENGINEERED', onClick: () => onNavigate?.('hardoowd-flooring-engineered') },
+          ],
+        },
         {
           name: 'WPC DECKING',
           submenu: [
@@ -81,7 +88,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           ],
         },
         {
-          name: 'OTHER WPC PRODUCTS',
+          name: 'OTHER PRODUCTS',
           submenu: [
             { name: 'WPC PRIVACY FENCE', onClick: () => onNavigate?.('wpc-privacy-fence') },
             { name: 'WPC FLUTED PANELS', onClick: () => onNavigate?.('wpc-fluted-panels') },
@@ -117,8 +124,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
               <div
                 key={item.name}
                 className="relative"
-                onMouseEnter={() => item.name === 'FLOORING' && handleMouseEnter('flooring')}
-                onMouseLeave={item.name === 'FLOORING' ? handleMouseLeave : undefined}
+                onMouseEnter={() => item.name === 'PRODUCTS' && handleMouseEnter('products')}
+                onMouseLeave={item.name === 'PRODUCTS' ? handleMouseLeave : undefined}
               >
                 <button
                   className="flex items-center text-white hover:text-gray-400 font-medium transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
@@ -131,7 +138,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
                 </button>
 
                 {/* Dropdown for FLOORING */}
-                {item.name === 'FLOORING' && activeDropdown === 'flooring' && (
+                {item.name === 'PRODUCTS' && activeDropdown === 'products' && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-beige-300 py-2 z-50">
                     {item.dropdown?.map((subItem: any, index: number) => (
                       <div key={index} className="relative group">
