@@ -64,11 +64,11 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
         
         { name: 'WOOD SPC FLOORING', onClick: () => onNavigate?.('wood-spc-flooring') },
         {
-          name: 'SPC FLOORING',
-          submenu: [
-            { name: 'STANDARD SPC FLOORING', onClick: () => onNavigate?.('standard-spc-flooring') },
-            { name: 'FLEXIBLE SPC FLOORING', onClick: () => onNavigate?.('flexible-spc-flooring') },
-          ],
+          name: 'SPC FLOORING', onClick: () => onNavigate?.('standard-spc-flooring')
+          // submenu: [
+          //   { name: 'STANDARD SPC FLOORING', onClick: () => onNavigate?.('standard-spc-flooring') },
+          //   { name: 'FLEXIBLE SPC FLOORING', onClick: () => onNavigate?.('flexible-spc-flooring') },
+          // ],
         },
         { name: 'LAMINATE FLOORING', onClick: () => onNavigate?.('laminate-flooring') },
         { name: 'VINYL FLOORING', onClick: () => onNavigate?.('vinyl-flooring') },
@@ -81,11 +81,11 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           ],
         },
         {
-          name: 'WPC DECKING',
-          submenu: [
-            { name: 'SOLID', onClick: () => onNavigate?.('wpc-decking-solid') },
-            { name: 'HOLLOW', onClick: () => onNavigate?.('wpc-decking-hollow') },
-          ],
+          name: 'WPC DECKING', onClick: () => onNavigate?.('wpc-decking-solid')
+          // submenu: [
+          //   { name: 'SOLID', onClick: () => onNavigate?.('wpc-decking-solid') },
+          //   { name: 'HOLLOW', onClick: () => onNavigate?.('wpc-decking-hollow') },
+          // ],
         },
         {
           name: 'OTHER PRODUCTS',

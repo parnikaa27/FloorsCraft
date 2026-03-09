@@ -37,13 +37,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down, glue-down, floating'
         },
         gallery: [
-          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/hardwood.jpg', code: 'HWX9421' },
+  { image: '/hardwood1.webp', code: 'HWX9478' },
+  { image: '/hardwood2.webp', code: 'HWX9512' },
+  { image: '/hardwood3.webp', code: 'HWX9384' },
+  { image: '/hardwood4.jpg', code: 'HWX9653' },
+  { image: '/hardwood5.webp', code: 'HWX9726' }
+]
       },
       'vinyl-flooring': {
         title: 'Vinyl Flooring',
@@ -63,14 +63,23 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Wear Layer': '12mil to 28mil commercial grade',
           'Installation': 'Click-lock floating system'
         },
-        gallery: [
-          '/vinyl6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/vinyl1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/vinyl2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/vinyl3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/vinyl4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/vinyl5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+       gallery: [
+{ image: '/dKTV1246.webp', code: 'FCV1246' },
+{ image: '/dKTV1816.webp', code: 'FCV1816' },
+{ image: '/dKTV2139.webp', code: 'FCV2139' },
+{ image: '/dKTV2270.webp', code: 'FCV2270' },
+{ image: '/dKTV3509.webp', code: 'FCV3509' },
+{ image: '/dKTV3757.webp', code: 'FCV3757' },
+{ image: '/dKTV8004.webp', code: 'FCV8004' },
+{ image: '/dKTV8011.webp', code: 'FCV8011' },
+{ image: '/dKTV8012.webp', code: 'FCV8012' },
+{ image: '/dKTV8013.webp', code: 'FCV8013' },
+{ image: '/dKTV8015.webp', code: 'FCV8015' },
+{ image: '/dKTV8019.webp', code: 'FCV8019' },
+{ image: '/dKTV8023.webp', code: 'FCV8023' },
+{ image: '/dKTV8031.webp', code: 'FCV8031' },
+{ image: '/dKTV8032.webp', code: 'FCV8032' }
+]
       },
       'wood-spc-flooring': {
         title: 'Wood SPC Flooring',
@@ -91,13 +100,23 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Core': 'Stone Plastic Composite'
         },
         gallery: [
-          '/woodspcflooring3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspcflooring4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspc.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspcflooring6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspc3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspcflooring5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+{ image: '/aKTWV0105.webp', code: 'FCWV0105' },
+{ image: '/aKTWV0902.webp', code: 'FCWV0902' },
+{ image: '/aKTWV1002.webp', code: 'FCWV1002' },
+{ image: '/aKTWV1004.webp', code: 'FCWV1004' },
+{ image: '/aKTWV1005.webp', code: 'FCWV1005' },
+{ image: '/aKTWV1007.webp', code: 'FCWV1007' },
+{ image: '/aKTWV1008.webp', code: 'FCWV1008' },
+{ image: '/aKTWV1011.webp', code: 'FCWV1011' },
+{ image: '/aKTWV1147.webp', code: 'FCWV1147' },
+{ image: '/aKTWV1161.webp', code: 'FCWV1161' },
+{ image: '/aKTWV1166.webp', code: 'FCWV1166' },
+{ image: '/aKTWV1241.webp', code: 'FCWV1241' },
+{ image: '/aKTWV1242.webp', code: 'FCWV1242' },
+{ image: '/aKTWV3031.webp', code: 'FCWV3031' },
+{ image: '/aWV1001.webp', code: 'FCWV1001' },
+{ image: '/aWV1003.webp', code: 'FCWV1003' }
+]
       },
       'solid-hardwood-flooring': {
         title: 'Solid Hardwood Flooring',
@@ -118,13 +137,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down over subfloor'
         },
         gallery: [
-          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW301' },
+  { image: '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW302' },
+  { image: '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW303' },
+  { image: '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW304' },
+  { image: '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW305' },
+  { image: '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW306' }
+]
       },
       'engineered-hardwood-flooring': {
         title: 'Engineered Hardwood Flooring',
@@ -145,13 +164,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down, glue-down, or floating'
         },
         gallery: [
-          '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG401' },
+  { image: '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG402' },
+  { image: '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG403' },
+  { image: '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG404' },
+  { image: '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG405' },
+  { image: '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG406' }
+]
       },
       'standard-spc-flooring': {
         title: 'Standard SPC Flooring',
@@ -172,13 +191,23 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock floating'
         },
         gallery: [
-          '/standardspc1.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/standardspc2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspcflooring2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/standardspc3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/standardspc6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/woodspc2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+{ image: '/bKTV1714.webp', code: 'FCV1714' },
+{ image: '/bKTV1816.webp', code: 'FCV1816' },
+{ image: '/bKTV2056.webp', code: 'FCV2056' },
+{ image: '/bKTV2309.webp', code: 'FCV2309' },
+{ image: '/bKTV4038.webp', code: 'FCV4038' },
+{ image: '/bKTV4058.webp', code: 'FCV4058' },
+{ image: '/bKTV8005.webp', code: 'FCV8005' },
+{ image: '/bKTV8020.webp', code: 'FCV8020' },
+{ image: '/bKTV8022.webp', code: 'FCV8022' },
+{ image: '/bKTV8024.webp', code: 'FCV8024' },
+{ image: '/bKTV8025.webp', code: 'FCV8025' },
+{ image: '/bKTV8030.webp', code: 'FCV8030' },
+{ image: '/bKTV8033.webp', code: 'FCV8033' },
+{ image: '/bKTV8034.webp', code: 'FCV8034' },
+{ image: '/bKTV8035.webp', code: 'FCV8035' },
+{ image: '/bKTV8036.webp', code: 'FCV8036' }
+]
       },
       'flexible-spc-flooring': {
         title: 'Flexible SPC Flooring',
@@ -199,13 +228,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock or glue-down'
         },
         gallery: [
-          '/flexiblespc1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/flexiblespc2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/flexible3.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/flexible4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/flexible5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/flexible6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/flexiblespc1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP601' },
+  { image: '/flexiblespc2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP602' },
+  { image: '/flexible3.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP603' },
+  { image: '/flexible4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP604' },
+  { image: '/flexible5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP605' },
+  { image: '/flexible6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FSP606' }
+]
       },
       'laminate-flooring': {
         title: 'Laminate Flooring',
@@ -226,13 +255,20 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Click-lock floating system'
         },
         gallery: [
-          '/laminate1.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/laminate2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/laminate2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/laminate3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/laminate.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/laminate4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+{ image: '/cKTL300.webp', code: 'FCL300' },
+{ image: '/cKTL1004.webp', code: 'FCL1004' },
+{ image: '/cKTL2001.webp', code: 'FCL2001' },
+{ image: '/cKTL2002.webp', code: 'FCL2002' },
+{ image: '/cKTL2003.webp', code: 'FCL2003' },
+{ image: '/cKTL2004.webp', code: 'FCL2004' },
+{ image: '/cKTL2007.webp', code: 'FCL2007' },
+{ image: '/cKTL3004.webp', code: 'FCL3004' },
+{ image: '/cKTL3005.webp', code: 'FCL3005' },
+{ image: '/cKTL3006.webp', code: 'FCL3006' },
+{ image: '/cKTL3007.webp', code: 'FCL3007' },
+{ image: '/cKTL7001.webp', code: 'FCL7001' },
+{ image: '/cKTL7002.webp', code: 'FCL7002' }
+]
       },
       'wpc-decking-solid': {
         title: 'WPC Solid Decking',
@@ -253,41 +289,47 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Hidden fastener system'
         },
         gallery: [
-          '/wpcdecking8.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcsolid.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking7.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcsolid1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+{ image: '/gKTW30S30-5.webp', code: 'FCW30S30-5' },
+{ image: '/gKTW90S20.webp', code: 'FCW90S20' },
+{ image: '/gKTW100H17.webp', code: 'FCW100H17' },
+{ image: '/gKTW100H20-A.webp', code: 'FCW100H20-A' },
+{ image: '/gKTW138H23-C.webp', code: 'FCW138H23-C' },
+{ image: '/gKTW140H25-G.webp', code: 'FCW140H25-G' },
+{ image: '/gKTW140S35-A.webp', code: 'FCW140S35-A' },
+{ image: '/gKTW150H25-D.webp', code: 'FCW150H25-D' },
+{ image: '/gKTW150H30.webp', code: 'FCW150H30' },
+{ image: '/gKTW150S25.webp', code: 'FCW150S25' },
+{ image: '/gKTW160H25.webp', code: 'FCW160H25' },
+{ image: '/gKTW250H25.webp', code: 'FCW250H25' }
+]
       },
-      'wpc-decking-hollow': {
-        title: 'WPC Hollow Decking',
-        subtitle: 'Lightweight strength for modern decks',
-        description: 'Our hollow WPC decking combines lightweight design with exceptional strength. The hollow core design reduces weight while maintaining structural integrity, making installation easier and more cost-effective.',
-        features: [
-          'Hollow core design for reduced weight',
-          'Excellent strength-to-weight ratio',
-          'Easy installation and handling',
-          'Weather and moisture resistant',
-          'Consistent color throughout',
-          'Environmentally friendly materials'
-        ],
-        specifications: {
-          'Thickness': 'Standard: 1" x 5.5" hollow profile - Customisable',
-          'Length': 'Standard: 12ft, 16ft options - Customisable',
-          'Weight': '40% lighter than solid boards',
-          'Installation': 'Standard deck fasteners'
-        },
-        gallery: [
-          '/wpcdecking1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',        
-          '/wpchollow.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking9.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdecking6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
-      },
+//       'wpc-decking-hollow': {
+//         title: 'WPC Hollow Decking',
+//         subtitle: 'Lightweight strength for modern decks',
+//         description: 'Our hollow WPC decking combines lightweight design with exceptional strength. The hollow core design reduces weight while maintaining structural integrity, making installation easier and more cost-effective.',
+//         features: [
+//           'Hollow core design for reduced weight',
+//           'Excellent strength-to-weight ratio',
+//           'Easy installation and handling',
+//           'Weather and moisture resistant',
+//           'Consistent color throughout',
+//           'Environmentally friendly materials'
+//         ],
+//         specifications: {
+//           'Thickness': 'Standard: 1" x 5.5" hollow profile - Customisable',
+//           'Length': 'Standard: 12ft, 16ft options - Customisable',
+//           'Weight': '40% lighter than solid boards',
+//           'Installation': 'Standard deck fasteners'
+//         },
+//         gallery: [
+//   { image: '/wpcdecking1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD901' },
+//   { image: '/wpcdecking2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD902' },
+//   { image: '/wpcdecking5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD903' },
+//   { image: '/wpchollow.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD904' },
+//   { image: '/wpcdecking9.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD905' },
+//   { image: '/wpcdecking6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'WHD906' }
+// ]
+//       },
       'wpc-privacy-fence': {
         title: 'WPC Privacy Fence',
         subtitle: 'Beautiful boundaries that last',
@@ -307,13 +349,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Post and panel system'
         },
         gallery: [
-          '/fence4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/fence2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/fence3.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/fence1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/fence5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/fence6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/fence4.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1001' },
+  { image: '/fence2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1002' },
+  { image: '/fence3.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1003' },
+  { image: '/fence1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1004' },
+  { image: '/fence5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1005' },
+  { image: '/fence6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'FNC1006' }
+]
+
       },
       'wpc-fluted-panels': {
         title: 'WPC Fluted Panels',
@@ -334,13 +377,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Wall mounting system'
         },
         gallery: [
-          '/panel4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/panel2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/panel3.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/panel1.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/panel5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/panel6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/panel4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1101' },
+  { image: '/panel2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1102' },
+  { image: '/panel3.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1103' },
+  { image: '/panel1.avif?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1104' },
+  { image: '/panel5.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1105' },
+  { image: '/panel6.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'PNL1106' }
+]
+
       },
       'wpc-doors': {
         title: 'WPC Interior Doors',
@@ -362,13 +406,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Hardware': 'Compatible with standard door hardware'
         },
         gallery: [
-          '/wpcdoor1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdoor2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdoor3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdoor4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdoor5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-          '/wpcdoor6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop'
-        ]
+  { image: '/wpcdoor1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1201' },
+  { image: '/wpcdoor2.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1202' },
+  { image: '/wpcdoor3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1203' },
+  { image: '/wpcdoor4.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1204' },
+  { image: '/wpcdoor5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1205' },
+  { image: '/wpcdoor6.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'DRS1206' }
+]
       }
     };
 
@@ -376,6 +420,24 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
   };
 
   const product = getProductData(productType);
+  const [currentPage, setCurrentPage] = React.useState(1);
+  const [fade, setFade] = React.useState(true);
+  const handlePageChange = (page: number) => {
+  setFade(false);
+
+  setTimeout(() => {
+    setCurrentPage(page);
+    setFade(true);
+  }, 120); // small lag
+};
+  const imagesPerPage = 6;
+
+  const indexOfLastImage = currentPage * imagesPerPage;
+  const indexOfFirstImage = indexOfLastImage - imagesPerPage;
+
+  const currentImages = product.gallery.slice(indexOfFirstImage, indexOfLastImage);
+
+  const totalPages = Math.ceil(product.gallery.length / imagesPerPage);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-beige-200 via-beige-100 to-beige-300 pt-20">
@@ -394,7 +456,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
       <div className="relative h-96 bg-gradient-to-r from-beige-900 via-amber-800 to-beige-800">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
-          style={{ backgroundImage: `url(${product.gallery[0]})` }}
+          style={{ backgroundImage: `url(${product.gallery[0].image})` }}
         />
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center text-white px-4 max-w-4xl mx-auto">
@@ -465,25 +527,42 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
         <div>
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Product Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {product.gallery.map((image: string, index: number) => (
+            {currentImages.map((item: any, index: number) => (
               <div
                 key={index}
                 className="group relative h-64 bg-gray-200 rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 <img
-                  src={image}
-                  alt={`${product.title} ${index + 1}`}
+                  src={item.image}
+                  alt={item.code}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-sm font-medium">{product.title}</p>
-                    <p className="text-xs opacity-90">View {index + 1}</p>
+                    <p className="text-xs opacity-90">{item.code}</p>
                   </div>
                 </div>
               </div>
             ))}
           </div>
+          {totalPages > 1 && (
+  <div className="flex justify-center mt-8 space-x-2">
+    {Array.from({ length: totalPages }, (_, i) => (
+      <button
+        key={i}
+        onClick={() => handlePageChange(i + 1)}
+        className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+          currentPage === i + 1
+            ? "bg-amber-600 text-white"
+            : "bg-white text-gray-700 border hover:bg-gray-100"
+        }`}
+      >
+        {i + 1}
+      </button>
+    ))}
+  </div>
+)}
         </div>
 
         {/* CTA Section */}

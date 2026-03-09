@@ -8,26 +8,22 @@ const Hero: React.FC = () => {
     {
       image: '/image3.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'Premium Hardwood Flooring',
-      subtitle: 'Transform your space with timeless elegance',
-      cta: 'Explore Hardwood'
+      subtitle: 'Transform your space with timeless elegance'
     },
     {
       image: '/woodspcflooring3.webp?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'Modern SPC Flooring',
-      subtitle: 'Durable, waterproof, and beautiful',
-      cta: 'Discover SPC'
+      subtitle: 'Durable, waterproof, and beautiful'
     },
     {
       image: '/vinyl2.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'Luxury Vinyl Solutions',
-      subtitle: 'Style meets performance in every plank',
-      cta: 'View Vinyl'
+      subtitle: 'Style meets performance in every plank'
     },
     {
       image: '/wpcdecking8.avif?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
       title: 'WPC Decking & More',
-      subtitle: 'Indoor and outdoor solutions for every project',
-      cta: 'Explore WPC'
+      subtitle: 'Indoor and outdoor solutions for every project'
     }
   ];
 
@@ -79,11 +75,6 @@ const Hero: React.FC = () => {
           <div className="flex flex-col items-center space-y-8">
         {/* Decorative Line */}
             <div className="h-1 w-[70%] bg-orange-500 rounded-full"></div>
-
-        {/* CTA Button */}
-            <button className="bg-gradient-to-r from-orange-400 via-white-600 to-orange-500 hover:from-amber-700 hover:to-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 animate-fade-in-delay-2 shadow-lg">
-              {slides[currentSlide].cta}
-            </button>
           </div>
         </div>
       </div>
