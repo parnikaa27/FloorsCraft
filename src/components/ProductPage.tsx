@@ -173,9 +173,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
 ]
       },
       'standard-spc-flooring': {
-        title: 'Standard SPC Flooring',
+        title: 'SPC Flooring',
         subtitle: 'Rigid core technology for ultimate stability',
-        description: 'Our Standard SPC flooring features a rigid stone plastic composite core that provides exceptional stability and durability. Ideal for high-traffic areas and commercial applications with superior performance characteristics.',
+        description: 'Our SPC flooring features a rigid stone plastic composite core that provides exceptional stability and durability. Ideal for high-traffic areas and commercial applications with superior performance characteristics.',
         features: [
           'Rigid stone plastic composite core',
           '100% waterproof throughout',
@@ -271,9 +271,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
 ]
       },
       'wpc-decking-solid': {
-        title: 'WPC Solid Decking',
+        title: 'WPC Decking',
         subtitle: 'Premium outdoor living solutions',
-        description: 'Our solid WPC decking boards provide the ultimate in outdoor durability and beauty. Made from wood plastic composite materials, these boards resist weather, insects, and wear while maintaining their appearance year after year.',
+        description: 'Our WPC decking boards provide the ultimate in outdoor durability and beauty. Made from wood plastic composite materials, these boards resist weather, insects, and wear while maintaining their appearance year after year.',
         features: [
           'Solid wood plastic composite construction',
           'Weather and UV resistant',
