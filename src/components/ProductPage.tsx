@@ -118,7 +118,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
 { image: '/aWV1003.webp', code: 'FCWV1003' }
 ]
       },
-      'solid-hardwood-flooring': {
+      'hardwood-flooring-solid': {
         title: 'Solid Hardwood Flooring',
         subtitle: 'Traditional elegance in pure wood',
         description: 'Our solid hardwood flooring represents the pinnacle of traditional flooring craftsmanship. Made from single pieces of natural wood, these floors offer unmatched authenticity and the ability to be refinished multiple times throughout their lifetime.',
@@ -137,15 +137,11 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down over subfloor'
         },
         gallery: [
-  { image: '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW301' },
-  { image: '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW302' },
-  { image: '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW303' },
-  { image: '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW304' },
-  { image: '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW305' },
-  { image: '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'SHW306' }
+{ image: '/eKTS1401.webp', code: 'FCS1401' },
+{ image: '/eKTS1402.webp', code: 'FCS1402' }
 ]
       },
-      'engineered-hardwood-flooring': {
+      'hardwood-flooring-engineered': {
         title: 'Engineered Hardwood Flooring',
         subtitle: 'Modern engineering meets natural beauty',
         description: 'Our engineered hardwood flooring combines a real wood veneer top layer with a stable plywood or HDF core. This construction provides enhanced dimensional stability while maintaining the authentic look and feel of solid hardwood.',
@@ -164,12 +160,44 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
           'Installation': 'Nail-down, glue-down, or floating'
         },
         gallery: [
-  { image: '/hardwood2.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG401' },
-  { image: '/hardwood4.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG402' },
-  { image: '/hardwood1.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG403' },
-  { image: '/hardwood3.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG404' },
-  { image: '/hardwood5.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG405' },
-  { image: '/hardwood.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop', code: 'ENG406' }
+{ image: '/fKTH1001.webp', code: 'FCH1001' },
+{ image: '/fKTH1005.webp', code: 'FCH1005' },
+{ image: '/fKTH1101.webp', code: 'FCH1101' },
+{ image: '/fKTH1107.webp', code: 'FCH1107' },
+{ image: '/fKTH1111.webp', code: 'FCH1111' },
+{ image: '/fKTH1112-D.webp', code: 'FCH1112-D' },
+{ image: '/fKTH1112.webp', code: 'FCH1112' },
+{ image: '/fKTH1127.webp', code: 'FCH1127' },
+{ image: '/fKTH1305.webp', code: 'FCH1305' },
+{ image: '/fKTH1306.webp', code: 'FCH1306' },
+{ image: '/fKTH1401.webp', code: 'FCH1401' },
+{ image: '/fKTH1505.webp', code: 'FCH1505' },
+{ image: '/fKTH2731.webp', code: 'FCH2731' },
+{ image: '/fKTH3104.webp', code: 'FCH3104' },
+{ image: '/fKTH9101.webp', code: 'FCH9101' },
+{ image: '/fKTH9123.webp', code: 'FCH9123' },
+{ image: '/fKTH9128.webp', code: 'FCH9128' },
+{ image: '/fKTH9131.webp', code: 'FCH9131' },
+{ image: '/fKTH9203.webp', code: 'FCH9203' },
+{ image: '/fKTH9207.webp', code: 'FCH9207' },
+{ image: '/fKTH9218.webp', code: 'FCH9218' },
+{ image: '/fKTH9223.webp', code: 'FCH9223' },
+{ image: '/fKTH9224.webp', code: 'FCH9224' },
+{ image: '/fKTH9225.webp', code: 'FCH9225' },
+{ image: '/fKTH9226.webp', code: 'FCH9226' },
+{ image: '/fKTH9227.webp', code: 'FCH9227' },
+{ image: '/fKTH9228.webp', code: 'FCH9228' },
+{ image: '/fKTH9229.webp', code: 'FCH9229' },
+{ image: '/fKTH9230.webp', code: 'FCH9230' },
+{ image: '/fKTH9231.webp', code: 'FCH9231' },
+{ image: '/fKTH9232.webp', code: 'FCH9232' },
+{ image: '/fKTH9233.webp', code: 'FCH9233' },
+{ image: '/fKTH9234.webp', code: 'FCH9234' },
+{ image: '/fKTH9235.webp', code: 'FCH9235' },
+{ image: '/fKTH9236.webp', code: 'FCH9236' },
+{ image: '/fKTH9237.webp', code: 'FCH9237' },
+{ image: '/fKTH9238.webp', code: 'FCH9238' },
+{ image: '/fKTH9302.webp', code: 'FCH9302' }
 ]
       },
       'standard-spc-flooring': {
@@ -275,7 +303,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
         subtitle: 'Premium outdoor living solutions',
         description: 'Our WPC decking boards provide the ultimate in outdoor durability and beauty. Made from wood plastic composite materials, these boards resist weather, insects, and wear while maintaining their appearance year after year.',
         features: [
-          'Solid wood plastic composite construction',
+          'Wood plastic composite construction',
           'Weather and UV resistant',
           'Splinter-free and safe for bare feet',
           'Low maintenance - no staining required',
@@ -468,7 +496,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productType, onBack }) => {
 
       {/* Content Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12 items-center">
           {/* Description */}
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Product Overview</h2>

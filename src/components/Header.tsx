@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
   };
 
   const handleSubMouseEnter = (subDropdown: string) => {
-    setActiveSubDropdown(subDropdown);
+  setActiveSubDropdown(subDropdown);
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -77,7 +77,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           name: 'HARDWOOD FLOORING',
           submenu: [
             { name: 'SOLID', onClick: () => onNavigate?.('hardwood-flooring-solid') },
-            { name: 'ENGINEERED', onClick: () => onNavigate?.('hardoowd-flooring-engineered') },
+            { name: 'ENGINEERED', onClick: () => onNavigate?.('hardwood-flooring-engineered') },
           ],
         },
         {
@@ -110,12 +110,12 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
   };
 
   return (
-    <header className="bg-stone-950 backdrop-blur-sm shadow-lg fixed w-full top-0 z-50 border-b border-beige-300">
+    <header className="bg-gradient-to-r from-beige-200 via-beige-300 to-beige-400 backdrop-blur-sm shadow-lg fixed w-full top-0 z-50 border-b border-beige-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => onNavigate?.('home')}>
-            <img src="/FloorsCraft Logo.png" alt="FloorsCraft Logo" className="h-16 w-auto" />
+            <img src="/logo.png" alt="FloorsCraft Logo" className="h-16 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
@@ -128,7 +128,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
                 onMouseLeave={item.name === 'PRODUCTS' ? handleMouseLeave : undefined}
               >
                 <button
-                  className="flex items-center text-white hover:text-gray-400 font-medium transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
+                  className="flex items-center text-gray-900 hover:text-amber-700 font-medium transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
                   onClick={() => {
                     if (!item.dropdown) handleItemClick(item);
                   }}
@@ -139,14 +139,27 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
 
                 {/* Dropdown for FLOORING */}
                 {item.name === 'PRODUCTS' && activeDropdown === 'products' && (
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-beige-300 py-2 z-50">
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-beige-300 py-2 z-50"
+                    onMouseLeave={() => {
+                    setActiveDropdown(null);
+                    setActiveSubDropdown(null);
+                    }}
+                  >
                     {item.dropdown?.map((subItem: any, index: number) => (
                       <div key={index} className="relative group">
                         <div
                           className="px-4 py-2 text-sm text-gray-700 hover:bg-beige-100 hover:text-beige-800 flex justify-between items-center cursor-pointer"
-                          onClick={() => subItem.onClick?.()}
-                          onMouseEnter={() => subItem.submenu && handleSubMouseEnter(subItem.name)}
-                        >
+                          onMouseEnter={() => {
+                            if (subItem.submenu) {
+                              setActiveSubDropdown(subItem.name);
+                            } else {
+                              setActiveSubDropdown(null);
+                            }
+                          }}
+                          onClick={() => {
+                            if (!subItem.submenu) handleItemClick(subItem);
+                          }}
+                          >
                           {subItem.name}
                           {subItem.submenu && <ChevronDown className="h-3 w-3 rotate-[-90deg]" />}
                         </div>

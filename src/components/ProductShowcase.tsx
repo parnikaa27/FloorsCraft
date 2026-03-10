@@ -28,23 +28,23 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
       features: ['Real Wood Veneer', 'Waterproof Core', 'Superior Stability']
     },
     {
-      id: 'spc-flooring',
+      id: 'standard-spc-flooring',
       name: 'SPC Flooring',
       image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       description: 'Stone Plastic Composite flooring that combines durability with beautiful design options.',
       features: ['Rigid Core', 'Waterproof', 'Commercial Grade'],
-      subcategories: [
-        {
-          id: 'standard-spc-flooring',
-          name: 'Standard SPC',
-          description: 'Rigid core technology for ultimate stability'
-        },
-        {
-          id: 'flexible-spc-flooring',
-          name: 'Flexible SPC',
-          description: 'Comfort meets durability in flexible design'
-        }
-      ]
+      // subcategories: [
+      //   {
+      //     id: 'standard-spc-flooring',
+      //     name: 'Standard SPC',
+      //     description: 'Rigid core technology for ultimate stability'
+      //   },
+      //   {
+      //     id: 'flexible-spc-flooring',
+      //     name: 'Flexible SPC',
+      //     description: 'Comfort meets durability in flexible design'
+      //   }
+      // ]
     },
     {
       id: 'laminate-flooring',
@@ -80,23 +80,23 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
       ]
     },
     {
-      id: 'wpc-decking',
+      id: 'wpc-decking-solid',
       name: 'WPC Decking',
       image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       description: 'Wood Plastic Composite decking for outdoor spaces that resist weather and wear.',
       features: ['Weather Resistant', 'Low Maintenance', 'UV Protected'],
-      subcategories: [
-        {
-          id: 'wpc-decking-solid',
-          name: 'Solid WPC Decking',
-          description: 'Premium outdoor living solutions'
-        },
-        {
-          id: 'wpc-decking-hollow',
-          name: 'Hollow WPC Decking',
-          description: 'Lightweight strength for modern decks'
-        }
-      ]
+      // subcategories: [
+      //   {
+      //     id: 'wpc-decking-solid',
+      //     name: 'Solid WPC Decking',
+      //     description: 'Premium outdoor living solutions'
+      //   },
+      //   {
+      //     id: 'wpc-decking-hollow',
+      //     name: 'Hollow WPC Decking',
+      //     description: 'Lightweight strength for modern decks'
+      //   }
+      // ]
     },
     {
       id: 'wpc-products',
