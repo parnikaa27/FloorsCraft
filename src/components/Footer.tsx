@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             </p>
 
             {/* Social Media */}
-            <div className="flex space-x-4 mt-6">
+            {/* <div className="flex space-x-4 mt-6">
               <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-amber-600 rounded-full flex items-center justify-center transition-colors duration-300">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
               <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-amber-600 rounded-full flex items-center justify-center transition-colors duration-300">
                 <Linkedin className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
             {/* Contact Info */}

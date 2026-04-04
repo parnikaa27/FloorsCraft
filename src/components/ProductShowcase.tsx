@@ -100,7 +100,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ onLearnMore }) => {
     },
     {
       id: 'wpc-products',
-      name: 'Other WPC Decking',
+      name: 'Other Products',
       image: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       description: 'Complete range of WPC products including doors, panels, and privacy fencing solutions.',
       features: ['Moisture Resistant', 'Eco-Friendly', 'Various Applications'],
