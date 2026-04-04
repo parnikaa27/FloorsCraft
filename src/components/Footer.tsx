@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-amber-400 mr-3" />
-                <span className="text-gray-300">+960 9310373</span>
+                <span className="text-gray-300">+960 9448385</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-amber-400 mr-3" />
@@ -78,11 +78,11 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <a
-                  href="https://wa.me/9609310373"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-400 hover:text-amber-500 flex items-center"
-                >
+                      href="https://wa.me/9609448385"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-amber-400 hover:text-amber-500 flex items-center"
+                    >
                 <FaWhatsapp className="h-6 w-6 mr-2" />
                 <span className="text-gray-300">Chat on WhatsApp</span>
                 </a>
