@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
     setErrorMessage('');
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
       
       const response = await fetch(`${apiUrl}/contact`, {
         method: 'POST',
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">sales.cenpro@opromaldives.com</p>
+                    <p className="text-gray-600">manager@floorscraft.com</p>
                   </div>
                 </div>
 
@@ -131,7 +131,7 @@ const Contact: React.FC = () => {
                   <div>
                   <h4 className="font-semibold text-slate-800 mb-1">WhatsApp</h4>
                     <a
-                      href="https://wa.me/9609310373"
+                      href="https://wa.me/9609448385"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-600 hover:text-green-700 font-medium underline"

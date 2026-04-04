@@ -185,7 +185,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
             ))}
             {/* WhatsApp Icon Desktop */}
             <a
-              href="https://wa.me/9609310373"
+              href="https://wa.me/9609448385"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 hover:text-green-600 transition-colors duration-200"
