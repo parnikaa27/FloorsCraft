@@ -54,7 +54,56 @@ const ProjectGallery: React.FC = () => {
       category: 'vinyl',
       image: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       description: 'Durable vinyl flooring for commercial retail space'
-    }
+    },
+    {
+      id: '7',
+      title: 'Beach Villa',
+      category: 'spc',
+      image: '/oxabeachvilla.jpg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      description: 'Durable vinyl flooring for commercial retail space'
+    },
+    {
+    id: '8',
+    title: 'Contemporary Master Bedroom',
+    category: 'spc',
+    image: '/updatespc1.jpg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    description: 'Premium SPC flooring creating a warm and elegant bedroom ambiance.'
+  },
+  {
+    id: '9',
+    title: 'Luxury Guest Bedroom',
+    category: 'spc',
+    image: '/updatespc2.jpg',
+    description: 'Scratch-resistant SPC flooring designed for modern guest interiors.'
+  },
+  {
+    id: '10',
+    title: 'Minimalist Bedroom Interior',
+    category: 'spc',
+    image: '/updatespc3.jpg',
+    description: 'Natural wood-look SPC flooring complementing minimalist interior décor.'
+  },
+  {
+    id: '11',
+    title: 'Elegant Family Suite',
+    category: 'spc',
+    image: '/updatespc4.jpg',
+    description: 'Waterproof SPC flooring delivering lasting beauty and everyday durability.'
+  },
+  {
+    id: '12',
+    title: 'Modern Indoor Lounge',
+    category: 'wpc',
+    image: '/wspc.jpg',
+    description: 'High-quality WPC flooring offering durability with a sophisticated wood finish.'
+  },
+  {
+    id: '13',
+    title: 'Premium Residential Bedroom',
+    category: 'spc',
+    image: '/rigidabaspc.jpg',
+    description: 'Comfortable and stylish SPC flooring installed for a premium residential space.'
+  }
   ];
 
   const categories = [
