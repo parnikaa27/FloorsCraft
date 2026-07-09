@@ -85,20 +85,13 @@ const ProjectGallery: React.FC = () => {
   },
   {
     id: '11',
-    title: 'Elegant Family Suite',
-    category: 'spc',
-    image: '/updatespc4.jpg',
-    description: 'Waterproof SPC flooring delivering lasting beauty and everyday durability.'
-  },
-  {
-    id: '12',
     title: 'Modern Indoor Lounge',
     category: 'wpc',
     image: '/wspc.jpg',
     description: 'High-quality WPC flooring offering durability with a sophisticated wood finish.'
   },
   {
-    id: '13',
+    id: '12',
     title: 'Premium Residential Bedroom',
     category: 'spc',
     image: '/rigidabaspc.jpg',
