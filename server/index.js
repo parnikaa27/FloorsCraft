@@ -76,7 +76,7 @@ app.post('/api/contact', async (req, res) => {
     try {
       const transporter = createTransporter();
       
-      // Email to company
+      // Email to company on opro email od
       const companyMailOptions = {
         from: process.env.EMAIL_USER,
         to: 'parnikabhatia27@gmail.com', 
